@@ -12,6 +12,6 @@ for file in files:
 				break
 			mylines.append(a_line.rstrip('\n')) 
 
-	with open("file"+str(x), 'w') as writer:
+	with open("chrMchr1New-"+str(x)+".fasta.eg", 'w') as writer:
  		writer.writelines("%s\n" % i for i in mylines)
  		x += 1
